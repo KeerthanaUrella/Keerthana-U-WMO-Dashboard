@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="container">
+        <div class="box budjet_tracker">
+            <div class="heading"><span class="material-symbols-outlined">account_balance_wallet</span>Budget Tracker</div>
+            <div class="items">
+                <div class="itemvalue"><span class="material-symbols-outlined">grocery</span>Groceries<a class="money">1000</a></div>
+                <div class="itemvalue"><span class="material-symbols-outlined">lunch_dining</span>Food<a class="money">1000</a></div>
+                <div class="itemvalue"><span class="material-symbols-outlined">flight</span>Travel<a class="money">1000</a></div>
+                <div class="itemvalue"><span class="material-symbols-outlined">payments</span>Savings<a class="money">1000</a></div>
+                <hr class="white-line">
+                <div class="itemvalue"><span class="material-symbols-outlined">fiber_manual_record</span>Total<a class="money">1000</a></div>
+            </div>
+        </div>
+
+        <div class="box digital_clock">
+            <div class="time">
+                <span class="hours">00</span>
+                <span class="dots">:</span>
+                <span class="minutes">00</span>
+                <div class="right_side">
+                    <span class="period">PM</span>
+                    <span class="seconds">00</span>
+                </div>
+            </div>
+            <div class="calendar">
+                <span class="date">19</span>
+                <span class="month">April</span>
+                <span class="year">2024</span>
+            </div> 
+            <hr class="white-line">
+            <div class="climate">
+                <span class="material-symbols-outlined" id="climate_icon">sunny</span>
+                <div class="right_side_climate">
+                    <span class="temperature">36°</span>
+                    <span class="weather">Cloudy</span>
+                </div>
+            </div>  
+        </div>
+
+        <div class="box to_do_list">
+            <div class="heading"><span class="material-symbols-outlined">task_alt</span>To Do List</div>
+            <div class="tasks"><input type="checkbox">Maths Assignment</div>
+            <div class="tasks"><input type="checkbox">Application</div>
+            <div class="tasks"><input type="checkbox">Coding</div>
+            <div class="tasks"><input type="checkbox">Clean the room</div>
+            <div class="tasks"><input type="checkbox">Exersice</div>
+            <div class="add_task"><a>+</a> Add a Task</div>
+        </div>
+        <div class="box timer">
+            
+            <div class="heading"><span class="material-symbols-outlined">timer</span>Timer</div>
+            <div class="panel">
+                <p id="work">Work</p>
+                <p id="work">|</p>
+                <p id = "break">Break</p>
+            </div>
+            <div class="timer_box">
+                <div class="circle">
+                    <div class="minutes_seconds">
+                        <p id="minutes">25</p>
+                        <p id="dots">:</p>
+                        <p id ="seconds">00</p>
+                    </div>
+                </div>
+                <div class="controls">
+                    <i id="icon" class="fa-solid fa-play"></i>
+                    <span class="material-symbols-outlined" id="icon">replay</span>
+                </div>
+            </div>
+        </div>
+        <div class="box notifications">
+            <div class="heading"><span class="material-symbols-outlined">mail</span>Gmail Notifications</div>
+            <div class="notification_box1">
+                <span class="from">From</span>
+                <p>First few lines of the context</p>
+            </div>
+            <div class="notification_box1">
+                <span class="from">From</span>
+                <p>First few lines of the context</p>
+            </div>
+            <div class="notification_box1">
+                <span class="from">From</span>
+                <p>First few lines of the context</p>
+            </div>
+            <div class="plus"><a href="https://mail.google.com" class="plus_link">+</a></div>
+        </div>
+        <div class="box important_links">
+            <div class="heading"><span class="material-symbols-outlined">star</span>Important Links</div>
+            <div class="links"><span class="material-symbols-outlined">link</span><a class="imp_link" href="https://coursesnew.iitm.ac.in/">Moodle</a></div>
+            <div class="links"><span class="material-symbols-outlined">link</span><a class="imp_link" href="https://www.notion.so/">Notion</a></div>
+            <div class="links"><span class="material-symbols-outlined">link</span><a class="imp_link" href="https://drive.google.com/drive/home">Drive</a></div>
+            <div class="links"><span class="material-symbols-outlined">link</span><a class="imp_link" href="https://www.google.com/maps">Maps</a></div>
+            <div class="links"><span class="material-symbols-outlined">link</span><a class="imp_link" href="https://chat.openai.com/">Chat GPT</a></div>
+            <div class="plus"><a href="" class="plus_link">+</a></div>
+        </div>   
+
+    </div>
+    
+    <div class="footer">
+        <div class="social_media">
+            <a href="https://www.facebook.com/"><i id="facebook" class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://web.whatsapp.com/"><i id="whatsapp" class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.instagram.com/"><i id="instagram" class="fa-brands fa-instagram"></i></a>
+            <a href="https://discord.com/"><i id="discord" class="fa-brands fa-discord"></i></a>
+        </div>
+    
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
