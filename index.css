@@ -219,6 +219,7 @@ input[type="checkbox"] {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    color: #fff;
 }
 
 .notifications {
